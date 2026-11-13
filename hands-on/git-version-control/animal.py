@@ -1,14 +1,19 @@
 import sys
 
 def dog():
-    print('D')
+    print('D!')
+
+def cat():
+    print('C!')
 
 def default():
-    print('hello')
+    print('Hello!')
 
 def main():
     if sys.argv == 'dog':
         dog()
+    elif sys.argv == 'cat':
+        cat()
     else:
         default()
 

@@ -1,3 +1,0 @@
-hello2
-new line 2
-git add -a command check
